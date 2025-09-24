@@ -1,0 +1,3002 @@
+[
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440001",
+    "id": 1,
+    "name": "192.168.1.1",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6366,
+      "name": "linux",
+      "type": 1,
+      "display": "Linux"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-01-10T14:22:00+07:00",
+    "updated_at": "2025-09-20T10:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440002",
+    "id": 2,
+    "name": "192.168.1.2",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-02-15T09:30:00+07:00",
+    "updated_at": "2025-09-21T12:45:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440003",
+    "id": 3,
+    "name": "192.168.1.3",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6368,
+      "name": "ubuntu",
+      "type": 1,
+      "display": "Ubuntu 20.04"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-03-05T11:10:00+07:00",
+    "updated_at": "2025-09-22T14:20:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440004",
+    "id": 4,
+    "name": "192.168.1.4",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-04-12T13:25:00+07:00",
+    "updated_at": "2025-09-23T16:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440005",
+    "id": 5,
+    "name": "192.168.1.5",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6370,
+      "name": "centos",
+      "type": 1,
+      "display": "CentOS 8"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-05-20T15:40:00+07:00",
+    "updated_at": "2025-09-24T07:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440006",
+    "id": 6,
+    "name": "192.168.1.6",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-06-01T08:50:00+07:00",
+    "updated_at": "2025-09-24T08:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440007",
+    "id": 7,
+    "name": "192.168.1.7",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6366,
+      "name": "linux",
+      "type": 1,
+      "display": "Linux"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-01-25T10:15:00+07:00",
+    "updated_at": "2025-09-20T11:45:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440008",
+    "id": 8,
+    "name": "192.168.1.8",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-02-20T12:30:00+07:00",
+    "updated_at": "2025-09-21T14:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440009",
+    "id": 9,
+    "name": "192.168.1.9",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6368,
+      "name": "ubuntu",
+      "type": 1,
+      "display": "Ubuntu 20.04"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-03-15T14:45:00+07:00",
+    "updated_at": "2025-09-22T16:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440010",
+    "id": 10,
+    "name": "192.168.1.10",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-04-10T16:00:00+07:00",
+    "updated_at": "2025-09-23T17:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440011",
+    "id": 11,
+    "name": "192.168.1.11",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6370,
+      "name": "centos",
+      "type": 1,
+      "display": "CentOS 8"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-05-05T17:15:00+07:00",
+    "updated_at": "2025-09-24T07:45:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440012",
+    "id": 12,
+    "name": "192.168.1.12",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-06-10T18:30:00+07:00",
+    "updated_at": "2025-09-24T08:10:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440013",
+    "id": 13,
+    "name": "192.168.1.13",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6366,
+      "name": "linux",
+      "type": 1,
+      "display": "Linux"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-01-20T19:45:00+07:00",
+    "updated_at": "2025-09-20T12:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440014",
+    "id": 14,
+    "name": "192.168.1.14",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-02-25T21:00:00+07:00",
+    "updated_at": "2025-09-21T15:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440015",
+    "id": 15,
+    "name": "192.168.1.15",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6368,
+      "name": "ubuntu",
+      "type": 1,
+      "display": "Ubuntu 20.04"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-03-10T22:15:00+07:00",
+    "updated_at": "2025-09-22T17:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440016",
+    "id": 16,
+    "name": "192.168.1.16",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-04-15T23:30:00+07:00",
+    "updated_at": "2025-09-23T18:45:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440017",
+    "id": 17,
+    "name": "192.168.1.17",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6370,
+      "name": "centos",
+      "type": 1,
+      "display": "CentOS 8"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-05-25T08:00:00+07:00",
+    "updated_at": "2025-09-24T07:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440018",
+    "id": 18,
+    "name": "192.168.1.18",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-06-05T09:15:00+07:00",
+    "updated_at": "2025-09-24T08:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440019",
+    "id": 19,
+    "name": "192.168.1.19",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6366,
+      "name": "linux",
+      "type": 1,
+      "display": "Linux"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-01-30T10:30:00+07:00",
+    "updated_at": "2025-09-20T13:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440020",
+    "id": 20,
+    "name": "192.168.1.20",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-02-28T11:45:00+07:00",
+    "updated_at": "2025-09-21T16:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440021",
+    "id": 21,
+    "name": "192.168.1.21",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6368,
+      "name": "ubuntu",
+      "type": 1,
+      "display": "Ubuntu 20.04"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-03-20T13:00:00+07:00",
+    "updated_at": "2025-09-22T18:45:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440022",
+    "id": 22,
+    "name": "192.168.1.22",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-04-20T14:15:00+07:00",
+    "updated_at": "2025-09-23T19:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440023",
+    "id": 23,
+    "name": "192.168.1.23",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6370,
+      "name": "centos",
+      "type": 1,
+      "display": "CentOS 8"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-05-30T15:30:00+07:00",
+    "updated_at": "2025-09-24T07:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440024",
+    "id": 24,
+    "name": "192.168.1.24",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-06-15T16:45:00+07:00",
+    "updated_at": "2025-09-24T08:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440025",
+    "id": 25,
+    "name": "192.168.1.25",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6366,
+      "name": "linux",
+      "type": 1,
+      "display": "Linux"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-01-15T18:00:00+07:00",
+    "updated_at": "2025-09-20T14:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440026",
+    "id": 26,
+    "name": "192.168.1.26",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-02-10T19:15:00+07:00",
+    "updated_at": "2025-09-21T17:45:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440027",
+    "id": 27,
+    "name": "192.168.1.27",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6368,
+      "name": "ubuntu",
+      "type": 1,
+      "display": "Ubuntu 20.04"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-03-05T20:30:00+07:00",
+    "updated_at": "2025-09-22T19:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440028",
+    "id": 28,
+    "name": "192.168.1.28",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-04-10T21:45:00+07:00",
+    "updated_at": "2025-09-23T20:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440029",
+    "id": 29,
+    "name": "192.168.1.29",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6370,
+      "name": "centos",
+      "type": 1,
+      "display": "CentOS 8"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-05-15T23:00:00+07:00",
+    "updated_at": "2025-09-24T07:45:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440030",
+    "id": 30,
+    "name": "192.168.1.30",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-06-20T08:15:00+07:00",
+    "updated_at": "2025-09-24T08:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440031",
+    "id": 31,
+    "name": "192.168.1.31",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6366,
+      "name": "linux",
+      "type": 1,
+      "display": "Linux"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-01-25T09:30:00+07:00",
+    "updated_at": "2025-09-20T15:45:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440032",
+    "id": 32,
+    "name": "192.168.1.32",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-02-15T10:45:00+07:00",
+    "updated_at": "2025-09-21T19:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440033",
+    "id": 33,
+    "name": "192.168.1.33",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6368,
+      "name": "ubuntu",
+      "type": 1,
+      "display": "Ubuntu 20.04"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-03-10T12:00:00+07:00",
+    "updated_at": "2025-09-22T20:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440034",
+    "id": 34,
+    "name": "192.168.1.34",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-04-05T13:15:00+07:00",
+    "updated_at": "2025-09-23T21:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440035",
+    "id": 35,
+    "name": "192.168.1.35",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6370,
+      "name": "centos",
+      "type": 1,
+      "display": "CentOS 8"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-05-01T14:30:00+07:00",
+    "updated_at": "2025-09-24T07:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440036",
+    "id": 36,
+    "name": "192.168.1.36",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-06-10T15:45:00+07:00",
+    "updated_at": "2025-09-24T08:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440037",
+    "id": 37,
+    "name": "192.168.1.37",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6366,
+      "name": "linux",
+      "type": 1,
+      "display": "Linux"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-01-20T17:00:00+07:00",
+    "updated_at": "2025-09-20T16:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440038",
+    "id": 38,
+    "name": "192.168.1.38",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-02-15T18:15:00+07:00",
+    "updated_at": "2025-09-21T20:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440039",
+    "id": 39,
+    "name": "192.168.1.39",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6368,
+      "name": "ubuntu",
+      "type": 1,
+      "display": "Ubuntu 20.04"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-03-10T19:30:00+07:00",
+    "updated_at": "2025-09-22T21:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440040",
+    "id": 40,
+    "name": "192.168.1.40",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-04-05T20:45:00+07:00",
+    "updated_at": "2025-09-23T22:45:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440041",
+    "id": 41,
+    "name": "192.168.1.41",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6370,
+      "name": "centos",
+      "type": 1,
+      "display": "CentOS 8"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-05-01T22:00:00+07:00",
+    "updated_at": "2025-09-24T07:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440042",
+    "id": 42,
+    "name": "192.168.1.42",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-06-10T23:15:00+07:00",
+    "updated_at": "2025-09-24T08:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440043",
+    "id": 43,
+    "name": "192.168.1.43",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6366,
+      "name": "linux",
+      "type": 1,
+      "display": "Linux"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-01-15T08:30:00+07:00",
+    "updated_at": "2025-09-20T17:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440044",
+    "id": 44,
+    "name": "192.168.1.44",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-02-10T09:45:00+07:00",
+    "updated_at": "2025-09-21T22:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440045",
+    "id": 45,
+    "name": "192.168.1.45",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6368,
+      "name": "ubuntu",
+      "type": 1,
+      "display": "Ubuntu 20.04"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-03-05T11:00:00+07:00",
+    "updated_at": "2025-09-22T23:45:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440046",
+    "id": 46,
+    "name": "192.168.1.46",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-04-01T12:15:00+07:00",
+    "updated_at": "2025-09-24T07:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440047",
+    "id": 47,
+    "name": "192.168.1.47",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6370,
+      "name": "centos",
+      "type": 1,
+      "display": "CentOS 8"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-05-10T13:30:00+07:00",
+    "updated_at": "2025-09-24T08:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440048",
+    "id": 48,
+    "name": "192.168.1.48",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-06-15T14:45:00+07:00",
+    "updated_at": "2025-09-24T08:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440049",
+    "id": 49,
+    "name": "192.168.1.49",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6366,
+      "name": "linux",
+      "type": 1,
+      "display": "Linux"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-01-20T16:00:00+07:00",
+    "updated_at": "2025-09-20T18:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440050",
+    "id": 50,
+    "name": "192.168.1.50",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-02-15T17:15:00+07:00",
+    "updated_at": "2025-09-21T23:45:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440051",
+    "id": 51,
+    "name": "192.168.1.51",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6368,
+      "name": "ubuntu",
+      "type": 1,
+      "display": "Ubuntu 20.04"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-03-10T18:30:00+07:00",
+    "updated_at": "2025-09-23T08:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440052",
+    "id": 52,
+    "name": "192.168.1.52",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-04-05T19:45:00+07:00",
+    "updated_at": "2025-09-24T07:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440053",
+    "id": 53,
+    "name": "192.168.1.53",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6370,
+      "name": "centos",
+      "type": 1,
+      "display": "CentOS 8"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-05-01T21:00:00+07:00",
+    "updated_at": "2025-09-24T08:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440054",
+    "id": 54,
+    "name": "192.168.1.54",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-06-10T22:15:00+07:00",
+    "updated_at": "2025-09-24T08:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440055",
+    "id": 55,
+    "name": "192.168.1.55",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6366,
+      "name": "linux",
+      "type": 1,
+      "display": "Linux"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-01-15T23:30:00+07:00",
+    "updated_at": "2025-09-20T19:45:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440056",
+    "id": 56,
+    "name": "192.168.1.56",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-02-10T08:00:00+07:00",
+    "updated_at": "2025-09-21T09:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440057",
+    "id": 57,
+    "name": "192.168.1.57",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6368,
+      "name": "ubuntu",
+      "type": 1,
+      "display": "Ubuntu 20.04"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-03-05T09:15:00+07:00",
+    "updated_at": "2025-09-22T10:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440058",
+    "id": 58,
+    "name": "192.168.1.58",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-04-01T10:30:00+07:00",
+    "updated_at": "2025-09-23T11:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440059",
+    "id": 59,
+    "name": "192.168.1.59",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6370,
+      "name": "centos",
+      "type": 1,
+      "display": "CentOS 8"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-05-10T11:45:00+07:00",
+    "updated_at": "2025-09-24T07:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440060",
+    "id": 60,
+    "name": "192.168.1.60",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-06-15T13:00:00+07:00",
+    "updated_at": "2025-09-24T08:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440061",
+    "id": 61,
+    "name": "192.168.1.61",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6366,
+      "name": "linux",
+      "type": 1,
+      "display": "Linux"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-01-20T14:15:00+07:00",
+    "updated_at": "2025-09-20T12:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440062",
+    "id": 62,
+    "name": "192.168.1.62",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-02-15T15:30:00+07:00",
+    "updated_at": "2025-09-21T13:45:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440063",
+    "id": 63,
+    "name": "192.168.1.63",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6368,
+      "name": "ubuntu",
+      "type": 1,
+      "display": "Ubuntu 20.04"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-03-10T16:45:00+07:00",
+    "updated_at": "2025-09-22T15:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440064",
+    "id": 64,
+    "name": "192.168.1.64",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-04-05T18:00:00+07:00",
+    "updated_at": "2025-09-23T16:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440065",
+    "id": 65,
+    "name": "192.168.1.65",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6370,
+      "name": "centos",
+      "type": 1,
+      "display": "CentOS 8"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-05-01T19:15:00+07:00",
+    "updated_at": "2025-09-24T07:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440066",
+    "id": 66,
+    "name": "192.168.1.66",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-06-10T08:00:00+07:00",
+    "updated_at": "2025-09-24T08:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440067",
+    "id": 67,
+    "name": "192.168.1.67",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6368,
+      "name": "ubuntu",
+      "type": 1,
+      "display": "Ubuntu 20.04"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-01-25T09:15:00+07:00",
+    "updated_at": "2025-09-20T09:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440068",
+    "id": 68,
+    "name": "192.168.1.68",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-02-20T10:30:00+07:00",
+    "updated_at": "2025-09-21T10:45:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440069",
+    "id": 69,
+    "name": "192.168.1.69",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6370,
+      "name": "centos",
+      "type": 1,
+      "display": "CentOS 8"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-03-15T11:45:00+07:00",
+    "updated_at": "2025-09-22T12:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440070",
+    "id": 70,
+    "name": "192.168.1.70",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-04-10T13:00:00+07:00",
+    "updated_at": "2025-09-23T13:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440071",
+    "id": 71,
+    "name": "192.168.1.71",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6366,
+      "name": "linux",
+      "type": 1,
+      "display": "Linux"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-05-05T14:15:00+07:00",
+    "updated_at": "2025-09-24T07:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440072",
+    "id": 72,
+    "name": "192.168.1.72",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-06-01T15:30:00+07:00",
+    "updated_at": "2025-09-24T08:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440073",
+    "id": 73,
+    "name": "192.168.1.73",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6368,
+      "name": "ubuntu",
+      "type": 1,
+      "display": "Ubuntu 20.04"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-01-30T16:45:00+07:00",
+    "updated_at": "2025-09-20T14:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440074",
+    "id": 74,
+    "name": "192.168.1.74",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-02-25T18:00:00+07:00",
+    "updated_at": "2025-09-21T15:45:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440075",
+    "id": 75,
+    "name": "192.168.1.75",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6370,
+      "name": "centos",
+      "type": 1,
+      "display": "CentOS 8"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-03-20T19:15:00+07:00",
+    "updated_at": "2025-09-22T17:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440076",
+    "id": 76,
+    "name": "192.168.1.76",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-04-15T20:30:00+07:00",
+    "updated_at": "2025-09-23T18:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440077",
+    "id": 77,
+    "name": "192.168.1.77",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6366,
+      "name": "linux",
+      "type": 1,
+      "display": "Linux"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-05-10T21:45:00+07:00",
+    "updated_at": "2025-09-24T07:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440078",
+    "id": 78,
+    "name": "192.168.1.78",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-06-05T23:00:00+07:00",
+    "updated_at": "2025-09-24T08:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440079",
+    "id": 79,
+    "name": "192.168.1.79",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6368,
+      "name": "ubuntu",
+      "type": 1,
+      "display": "Ubuntu 20.04"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-01-15T08:15:00+07:00",
+    "updated_at": "2025-09-20T19:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440080",
+    "id": 80,
+    "name": "192.168.1.80",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-02-10T09:30:00+07:00",
+    "updated_at": "2025-09-21T20:45:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440081",
+    "id": 81,
+    "name": "192.168.1.81",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6370,
+      "name": "centos",
+      "type": 1,
+      "display": "CentOS 8"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-03-05T10:45:00+07:00",
+    "updated_at": "2025-09-22T22:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440082",
+    "id": 82,
+    "name": "192.168.1.82",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-04-01T12:00:00+07:00",
+    "updated_at": "2025-09-23T23:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440083",
+    "id": 83,
+    "name": "192.168.1.83",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6366,
+      "name": "linux",
+      "type": 1,
+      "display": "Linux"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-05-10T13:15:00+07:00",
+    "updated_at": "2025-09-24T07:45:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440084",
+    "id": 84,
+    "name": "192.168.1.84",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-06-15T14:30:00+07:00",
+    "updated_at": "2025-09-24T08:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440085",
+    "id": 85,
+    "name": "192.168.1.85",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6368,
+      "name": "ubuntu",
+      "type": 1,
+      "display": "Ubuntu 20.04"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-01-20T15:45:00+07:00",
+    "updated_at": "2025-09-20T20:45:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440086",
+    "id": 86,
+    "name": "192.168.1.86",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-02-15T17:00:00+07:00",
+    "updated_at": "2025-09-21T22:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440087",
+    "id": 87,
+    "name": "192.168.1.87",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6370,
+      "name": "centos",
+      "type": 1,
+      "display": "CentOS 8"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-03-10T18:15:00+07:00",
+    "updated_at": "2025-09-22T23:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440088",
+    "id": 88,
+    "name": "192.168.1.88",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-04-05T19:30:00+07:00",
+    "updated_at": "2025-09-24T07:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440089",
+    "id": 89,
+    "name": "192.168.1.89",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6366,
+      "name": "linux",
+      "type": 1,
+      "display": "Linux"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-05-01T20:45:00+07:00",
+    "updated_at": "2025-09-24T08:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440090",
+    "id": 90,
+    "name": "192.168.1.90",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-06-10T22:00:00+07:00",
+    "updated_at": "2025-09-24T08:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440091",
+    "id": 91,
+    "name": "192.168.1.91",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6368,
+      "name": "ubuntu",
+      "type": 1,
+      "display": "Ubuntu 20.04"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-01-15T23:15:00+07:00",
+    "updated_at": "2025-09-20T21:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440092",
+    "id": 92,
+    "name": "192.168.1.92",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-02-10T08:15:00+07:00",
+    "updated_at": "2025-09-21T22:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440093",
+    "id": 93,
+    "name": "192.168.1.93",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6370,
+      "name": "centos",
+      "type": 1,
+      "display": "CentOS 8"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-03-05T09:30:00+07:00",
+    "updated_at": "2025-09-22T23:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440094",
+    "id": 94,
+    "name": "192.168.1.94",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-04-01T10:45:00+07:00",
+    "updated_at": "2025-09-24T07:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440095",
+    "id": 95,
+    "name": "192.168.1.95",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6366,
+      "name": "linux",
+      "type": 1,
+      "display": "Linux"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-05-10T12:00:00+07:00",
+    "updated_at": "2025-09-24T08:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440096",
+    "id": 96,
+    "name": "192.168.1.96",
+    "manager": {
+      "id": 1,
+      "username": "john_doe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-06-15T13:15:00+07:00",
+    "updated_at": "2025-09-24T08:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440097",
+    "id": 97,
+    "name": "192.168.1.97",
+    "manager": {
+      "id": 2,
+      "username": "jane_smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6368,
+      "name": "ubuntu",
+      "type": 1,
+      "display": "Ubuntu 20.04"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 1,
+      "name": "Web Server",
+      "slug": "web-server"
+    },
+    "created_at": "2025-01-20T14:30:00+07:00",
+    "updated_at": "2025-09-20T22:15:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440098",
+    "id": 98,
+    "name": "192.168.1.98",
+    "manager": {
+      "id": 3,
+      "username": "alice_jones",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "email": "alice.jones@example.com"
+    },
+    "type": {
+      "value": 2,
+      "label": "Windows"
+    },
+    "os": {
+      "id": 6367,
+      "name": "windows",
+      "type": 2,
+      "display": "Windows Server"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 2,
+      "name": "Database Server",
+      "slug": "db-server"
+    },
+    "created_at": "2025-02-15T15:45:00+07:00",
+    "updated_at": "2025-09-21T23:30:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440099",
+    "id": 99,
+    "name": "192.168.1.99",
+    "manager": {
+      "id": 4,
+      "username": "bob_wilson",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
+    },
+    "type": {
+      "value": 1,
+      "label": "Linux"
+    },
+    "os": {
+      "id": 6370,
+      "name": "centos",
+      "type": 1,
+      "display": "CentOS 8"
+    },
+    "is_gpu_server": true,
+    "instance_role": {
+      "id": 3,
+      "name": "Compute Server",
+      "slug": "compute-server"
+    },
+    "created_at": "2025-03-10T17:00:00+07:00",
+    "updated_at": "2025-09-22T08:00:00+07:00"
+  },
+  {
+    "uid": "550e8400-e29b-41d4-a716-446655440100",
+    "id": 100,
+    "name": "192.168.1.100",
+    "manager": {
+      "id": 5,
+      "username": "emma_brown",
+      "first_name": "Emma",
+      "last_name": "Brown",
+      "email": "emma.brown@example.com"
+    },
+    "type": {
+      "value": 3,
+      "label": "Unix"
+    },
+    "os": {
+      "id": 6369,
+      "name": "freebsd",
+      "type": 3,
+      "display": "FreeBSD"
+    },
+    "is_gpu_server": false,
+    "instance_role": {
+      "id": 4,
+      "name": "File Server",
+      "slug": "file-server"
+    },
+    "created_at": "2025-04-05T18:15:00+07:00",
+    "updated_at": "2025-09-23T09:15:00+07:00"
+  }
+]
