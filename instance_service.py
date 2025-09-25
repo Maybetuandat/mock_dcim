@@ -1,7 +1,7 @@
 
 from typing import List, Optional, Dict, Any
 from instance_dao import InstanceDAO
-from model import Instance
+from model import Instance, InstanceRole
 
 
 class InstanceService:
@@ -54,5 +54,7 @@ class InstanceService:
         }
     
    
-    
-   
+    def get_instance_roles(self) -> List[InstanceRole]:
+            instances = self.dao.get_all()
+            roles = {inst.instance_role.id: inst.instance_role for inst in instances}
+            return list(roles.values())

@@ -2,7 +2,6 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from instance_controller import router
 
-# Create FastAPI app
 app = FastAPI(
     title="Instance Management API",
     description="API for managing server instances with pagination and filtering",
@@ -11,7 +10,7 @@ app = FastAPI(
     redoc_url="/redoc"
 )
 
-# Add CORS middleware
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"], 
@@ -20,7 +19,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Include the instance router
+
 app.include_router(router)
 
 

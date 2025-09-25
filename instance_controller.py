@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Query, HTTPException
-from typing import Optional, Dict, Any
+from typing import List, Optional, Dict, Any
 from instance_dao import InstanceDAO
 from instance_service import InstanceService
-from model import Instance
+from model import Instance, InstanceRole
 
 
 dao = InstanceDAO("data.json")
@@ -32,4 +32,8 @@ async def get_instances(
         return result
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Internal server error: {str(e)}")
+@router.get("/instance_roles", response_model=List[InstanceRole])
+async def get_instance_roles():
+    roles = service.get_instance_roles()
+    return roles
 
