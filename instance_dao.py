@@ -12,7 +12,7 @@ class InstanceDAO:
         self._load_data()
     
     def _load_data(self):
-        """Load data from JSON file and convert to Instance objects"""
+     
         try:
             with open(self.json_file_path, 'r', encoding='utf-8') as file:
                 data = json.load(file)

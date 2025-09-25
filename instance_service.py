@@ -12,43 +12,28 @@ class InstanceService:
         self, 
         page: int = 1, 
         page_size: int = 10,
-        user_id: Optional[int] = None,
-        role_id: Optional[int] = None,
+        username: Optional[str] = None,
+        instance_role_name: Optional[str] = None,
         name: Optional[str] = None
     ) -> Dict[str, Any]:
-        """
-        Get instances with pagination and filtering
-        
-        Args:
-            page: Page number (starts from 1)
-            page_size: Number of items per page
-            user_id: Filter by user ID
-            role_id: Filter by instance role ID  
-            name: Filter by instance name (IP address)
-            
-        Returns:
-            Dictionary containing instances data and pagination info
-        """
-        # Start with all instances
         instances = self.dao.get_all()
         
-        # Apply filters
-        if user_id is not None:
-            instances = [inst for inst in instances if inst.manager.id == user_id]
         
-        if role_id is not None:
-            instances = [inst for inst in instances if inst.instance_role.id == role_id]
-        
+        if username is not None:
+            instances = [inst for inst in instances if inst.manager.username == username]
+
+        if instance_role_name is not None:
+            instances = [inst for inst in instances if inst.instance_role.name == instance_role_name]
+
         if name is not None and name.strip():
             name_lower = name.strip().lower()
             instances = [inst for inst in instances if name_lower in inst.name.lower()]
         
-        # Calculate pagination
+       
         total = len(instances)
         offset = (page - 1) * page_size
-        total_pages = (total + page_size - 1) // page_size  # Ceiling division
-        
-        # Get paginated results
+        total_pages = (total + page_size - 1) // page_size
+
         paginated_instances = instances[offset:offset + page_size]
         
         return {
@@ -62,8 +47,8 @@ class InstanceService:
                 "has_prev": page > 1
             },
             "filters": {
-                "user_id": user_id,
-                "role_id": role_id,
+                "username": username,
+                "instance_role_name": instance_role_name,
                 "name": name
             }
         }
