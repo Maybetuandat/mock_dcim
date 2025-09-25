@@ -5,7 +5,7 @@
     "name": "192.168.1.1",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -29,46 +29,17 @@
     "created_at": "2025-01-10T14:22:00+07:00",
     "updated_at": "2025-09-20T10:15:00+07:00"
   },
-  {
-    "uid": "550e8400-e29b-41d4-a716-446655440002",
-    "id": 2,
-    "name": "192.168.1.2",
-    "manager": {
-      "id": 2,
-      "username": "jane_smith",
-      "first_name": "Jane",
-      "last_name": "Smith",
-      "email": "jane.smith@example.com"
-    },
-    "type": {
-      "value": 2,
-      "label": "Windows"
-    },
-    "os": {
-      "id": 6367,
-      "name": "windows",
-      "type": 2,
-      "display": "Windows Server"
-    },
-    "is_gpu_server": false,
-    "instance_role": {
-      "id": 2,
-      "name": "Database Server",
-      "slug": "db-server"
-    },
-    "created_at": "2025-02-15T09:30:00+07:00",
-    "updated_at": "2025-09-21T12:45:00+07:00"
-  },
+
   {
     "uid": "550e8400-e29b-41d4-a716-446655440003",
     "id": 3,
     "name": "192.168.1.3",
     "manager": {
-      "id": 3,
-      "username": "alice_jones",
-      "first_name": "Alice",
-      "last_name": "Jones",
-      "email": "alice.jones@example.com"
+      "id": 1,
+      "username": "user1",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com"
     },
     "type": {
       "value": 1,
@@ -95,7 +66,7 @@
     "name": "192.168.1.4",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -124,11 +95,11 @@
     "id": 5,
     "name": "192.168.1.5",
     "manager": {
-      "id": 5,
-      "username": "emma_brown",
-      "first_name": "Emma",
-      "last_name": "Brown",
-      "email": "emma.brown@example.com"
+      "id": 4,
+      "username": "user2",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "email": "bob.wilson@example.com"
     },
     "type": {
       "value": 1,
@@ -155,7 +126,7 @@
     "name": "192.168.1.6",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -185,7 +156,7 @@
     "name": "192.168.1.7",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -215,7 +186,7 @@
     "name": "192.168.1.8",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -245,7 +216,7 @@
     "name": "192.168.1.9",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -275,7 +246,7 @@
     "name": "192.168.1.10",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"
@@ -305,7 +276,7 @@
     "name": "192.168.1.11",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -335,7 +306,7 @@
     "name": "192.168.1.12",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -365,7 +336,7 @@
     "name": "192.168.1.13",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -395,7 +366,7 @@
     "name": "192.168.1.14",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -425,7 +396,7 @@
     "name": "192.168.1.15",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"
@@ -455,7 +426,7 @@
     "name": "192.168.1.16",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -485,7 +456,7 @@
     "name": "192.168.1.17",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -515,7 +486,7 @@
     "name": "192.168.1.18",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -545,7 +516,7 @@
     "name": "192.168.1.19",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -575,7 +546,7 @@
     "name": "192.168.1.20",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"
@@ -605,7 +576,7 @@
     "name": "192.168.1.21",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -635,7 +606,7 @@
     "name": "192.168.1.22",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -665,7 +636,7 @@
     "name": "192.168.1.23",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -695,7 +666,7 @@
     "name": "192.168.1.24",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -725,7 +696,7 @@
     "name": "192.168.1.25",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"
@@ -755,7 +726,7 @@
     "name": "192.168.1.26",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -785,7 +756,7 @@
     "name": "192.168.1.27",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -815,7 +786,7 @@
     "name": "192.168.1.28",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -845,7 +816,7 @@
     "name": "192.168.1.29",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -875,7 +846,7 @@
     "name": "192.168.1.30",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"
@@ -905,7 +876,7 @@
     "name": "192.168.1.31",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -935,7 +906,7 @@
     "name": "192.168.1.32",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -965,7 +936,7 @@
     "name": "192.168.1.33",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -995,7 +966,7 @@
     "name": "192.168.1.34",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -1025,7 +996,7 @@
     "name": "192.168.1.35",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"
@@ -1055,7 +1026,7 @@
     "name": "192.168.1.36",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -1085,7 +1056,7 @@
     "name": "192.168.1.37",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -1115,7 +1086,7 @@
     "name": "192.168.1.38",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -1145,7 +1116,7 @@
     "name": "192.168.1.39",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -1175,7 +1146,7 @@
     "name": "192.168.1.40",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"
@@ -1205,7 +1176,7 @@
     "name": "192.168.1.41",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -1235,7 +1206,7 @@
     "name": "192.168.1.42",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -1265,7 +1236,7 @@
     "name": "192.168.1.43",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -1295,7 +1266,7 @@
     "name": "192.168.1.44",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -1325,7 +1296,7 @@
     "name": "192.168.1.45",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"
@@ -1355,7 +1326,7 @@
     "name": "192.168.1.46",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -1385,7 +1356,7 @@
     "name": "192.168.1.47",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -1415,7 +1386,7 @@
     "name": "192.168.1.48",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -1445,7 +1416,7 @@
     "name": "192.168.1.49",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -1475,7 +1446,7 @@
     "name": "192.168.1.50",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"
@@ -1505,7 +1476,7 @@
     "name": "192.168.1.51",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -1535,7 +1506,7 @@
     "name": "192.168.1.52",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -1565,7 +1536,7 @@
     "name": "192.168.1.53",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -1595,7 +1566,7 @@
     "name": "192.168.1.54",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -1625,7 +1596,7 @@
     "name": "192.168.1.55",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"
@@ -1655,7 +1626,7 @@
     "name": "192.168.1.56",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -1685,7 +1656,7 @@
     "name": "192.168.1.57",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -1715,7 +1686,7 @@
     "name": "192.168.1.58",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -1745,7 +1716,7 @@
     "name": "192.168.1.59",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -1775,7 +1746,7 @@
     "name": "192.168.1.60",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"
@@ -1805,7 +1776,7 @@
     "name": "192.168.1.61",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -1835,7 +1806,7 @@
     "name": "192.168.1.62",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -1865,7 +1836,7 @@
     "name": "192.168.1.63",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -1895,7 +1866,7 @@
     "name": "192.168.1.64",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -1925,7 +1896,7 @@
     "name": "192.168.1.65",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"
@@ -1955,7 +1926,7 @@
     "name": "192.168.1.66",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -1985,7 +1956,7 @@
     "name": "192.168.1.67",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -2015,7 +1986,7 @@
     "name": "192.168.1.68",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -2045,7 +2016,7 @@
     "name": "192.168.1.69",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -2075,7 +2046,7 @@
     "name": "192.168.1.70",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"
@@ -2105,7 +2076,7 @@
     "name": "192.168.1.71",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -2135,7 +2106,7 @@
     "name": "192.168.1.72",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -2165,7 +2136,7 @@
     "name": "192.168.1.73",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -2195,7 +2166,7 @@
     "name": "192.168.1.74",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -2225,7 +2196,7 @@
     "name": "192.168.1.75",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"
@@ -2255,7 +2226,7 @@
     "name": "192.168.1.76",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -2285,7 +2256,7 @@
     "name": "192.168.1.77",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -2315,7 +2286,7 @@
     "name": "192.168.1.78",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -2345,7 +2316,7 @@
     "name": "192.168.1.79",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -2375,7 +2346,7 @@
     "name": "192.168.1.80",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"
@@ -2405,7 +2376,7 @@
     "name": "192.168.1.81",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -2435,7 +2406,7 @@
     "name": "192.168.1.82",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -2465,7 +2436,7 @@
     "name": "192.168.1.83",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -2495,7 +2466,7 @@
     "name": "192.168.1.84",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -2525,7 +2496,7 @@
     "name": "192.168.1.85",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"
@@ -2555,7 +2526,7 @@
     "name": "192.168.1.86",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -2585,7 +2556,7 @@
     "name": "192.168.1.87",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -2615,7 +2586,7 @@
     "name": "192.168.1.88",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -2645,7 +2616,7 @@
     "name": "192.168.1.89",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -2675,7 +2646,7 @@
     "name": "192.168.1.90",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"
@@ -2705,7 +2676,7 @@
     "name": "192.168.1.91",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -2735,7 +2706,7 @@
     "name": "192.168.1.92",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -2765,7 +2736,7 @@
     "name": "192.168.1.93",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -2795,7 +2766,7 @@
     "name": "192.168.1.94",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -2825,7 +2796,7 @@
     "name": "192.168.1.95",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"
@@ -2855,7 +2826,7 @@
     "name": "192.168.1.96",
     "manager": {
       "id": 1,
-      "username": "john_doe",
+      "username": "user1",
       "first_name": "John",
       "last_name": "Doe",
       "email": "john.doe@example.com"
@@ -2885,7 +2856,7 @@
     "name": "192.168.1.97",
     "manager": {
       "id": 2,
-      "username": "jane_smith",
+      "username": "user4",
       "first_name": "Jane",
       "last_name": "Smith",
       "email": "jane.smith@example.com"
@@ -2915,7 +2886,7 @@
     "name": "192.168.1.98",
     "manager": {
       "id": 3,
-      "username": "alice_jones",
+      "username": "user5",
       "first_name": "Alice",
       "last_name": "Jones",
       "email": "alice.jones@example.com"
@@ -2945,7 +2916,7 @@
     "name": "192.168.1.99",
     "manager": {
       "id": 4,
-      "username": "bob_wilson",
+      "username": "user2",
       "first_name": "Bob",
       "last_name": "Wilson",
       "email": "bob.wilson@example.com"
@@ -2975,7 +2946,7 @@
     "name": "192.168.1.100",
     "manager": {
       "id": 5,
-      "username": "emma_brown",
+      "username": "user3",
       "first_name": "Emma",
       "last_name": "Brown",
       "email": "emma.brown@example.com"

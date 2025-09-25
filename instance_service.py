@@ -12,18 +12,18 @@ class InstanceService:
         self, 
         page: int = 1, 
         page_size: int = 10,
-        username: Optional[str] = None,
-        instance_role_name: Optional[str] = None,
+        user_id: Optional[str] = None,
+        instance_role_id: Optional[int] = None,
         name: Optional[str] = None
     ) -> Dict[str, Any]:
         instances = self.dao.get_all()
-        
-        
-        if username is not None:
-            instances = [inst for inst in instances if inst.manager.username == username]
 
-        if instance_role_name is not None:
-            instances = [inst for inst in instances if inst.instance_role.name == instance_role_name]
+
+        if user_id is not None:
+            instances = [inst for inst in instances if inst.manager.id == user_id]
+
+        if instance_role_id is not None:
+            instances = [inst for inst in instances if inst.instance_role.id == instance_role_id]
 
         if name is not None and name.strip():
             name_lower = name.strip().lower()
@@ -47,57 +47,12 @@ class InstanceService:
                 "has_prev": page > 1
             },
             "filters": {
-                "username": username,
-                "instance_role_name": instance_role_name,
+                "user_id": user_id,
+                "instance_role_id": instance_role_id,
                 "name": name
             }
         }
     
-    def get_instance_by_id(self, instance_id: int) -> Optional[Instance]:
-        """Get a specific instance by ID"""
-        return self.dao.get_by_id(instance_id)
+   
     
-    def get_statistics(self) -> Dict[str, Any]:
-        """Get basic statistics about instances"""
-        instances = self.dao.get_all()
-        total = len(instances)
-        
-        if total == 0:
-            return {
-                "total": 0,
-                "gpu_servers": 0,
-                "non_gpu_servers": 0,
-                "os_distribution": {},
-                "role_distribution": {},
-                "manager_distribution": {}
-            }
-        
-        # Count by OS type
-        os_stats = {}
-        for instance in instances:
-            os_name = instance.os.display
-            os_stats[os_name] = os_stats.get(os_name, 0) + 1
-        
-        # Count by instance role
-        role_stats = {}
-        for instance in instances:
-            role_name = instance.instance_role.name
-            role_stats[role_name] = role_stats.get(role_name, 0) + 1
-        
-        # Count GPU servers
-        gpu_servers = len([inst for inst in instances if inst.is_gpu_server])
-        
-        # Count by manager
-        manager_stats = {}
-        for instance in instances:
-            manager_name = f"{instance.manager.first_name} {instance.manager.last_name}"
-            manager_stats[manager_name] = manager_stats.get(manager_name, 0) + 1
-        
-        return {
-            "total": total,
-            "gpu_servers": gpu_servers,
-            "non_gpu_servers": total - gpu_servers,
-            "os_distribution": os_stats,
-            "role_distribution": role_stats,
-            "manager_distribution": manager_stats
-        }
+   
