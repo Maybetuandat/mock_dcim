@@ -38,22 +38,19 @@ class InstanceService:
         
         return {
             "data": paginated_instances,
-            "pagination": {
-                "page": page,
-                "page_size": page_size,
-                "total": total,
-                "total_pages": total_pages,
-                "has_next": page < total_pages,
-                "has_prev": page > 1
-            },
+            "page": page,
+            "page_size": page_size,
+            "total": total,
+            "total_pages": total_pages,
+            "has_next": page < total_pages,
+            "has_prev": page > 1,
             "filters": {
                 "user_id": user_id,
                 "instance_role_id": instance_role_id,
                 "name": name
             }
         }
-    
-   
+
     def get_instance_roles(self) -> List[InstanceRole]:
             instances = self.dao.get_all()
             roles = {inst.instance_role.id: inst.instance_role for inst in instances}
