@@ -16,17 +16,15 @@ router = APIRouter(prefix="/api/v1/instances", tags=["instances"])
 async def get_instances(
     page: int = Query(1, ge=1, description="Page number (starts from 1)"),
     page_size: int = Query(10, ge=1, le=100, description="Number of items per page"),
-    user_id: Optional[str] = Query(None, description="Filter by username"),
-    instance_role_id: Optional[int] = Query(None, description="Filter by instance role ID"),
-    name: Optional[str] = Query(None, description="Filter by instance name (IP address)")
+    user_name: Optional[str] = Query(None, description="Filter by username"),
+    name: Optional[str] = Query(None, description="Filter by instance name ")
 ) -> Dict[str, Any]:
    
     try:
         result = service.get_instances(
             page=page,
             page_size=page_size,
-            user_id=user_id,
-            instance_role_id=instance_role_id,
+            user_name=user_name,
             name=name
         )
         return result
