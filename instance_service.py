@@ -20,7 +20,7 @@ class InstanceService:
 
 
         if user_name is not None:
-            instances = [inst for inst in instances if inst.manager.name == user_name]
+            instances = [inst for inst in instances if inst.manager.username == user_name]
 
         
 
