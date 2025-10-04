@@ -12,13 +12,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Debian 10"
     },
     "os": {
       "id": 6366,
-      "name": "linux",
+      "name": "Debian 10",
       "type": 1,
-      "display": "Linux"
+      "display": "Debian 10"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -43,13 +43,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Ubuntu 22:04"
     },
     "os": {
       "id": 6368,
-      "name": "ubuntu",
+      "name": "Ubuntu 22:04",
       "type": 1,
-      "display": "Ubuntu 20.04"
+      "display": "Ubuntu 22:04"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -73,13 +73,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -103,7 +103,7 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "CentOS 8"
     },
     "os": {
       "id": 6370,
@@ -133,13 +133,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -163,13 +163,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Debian 10"
     },
     "os": {
       "id": 6366,
-      "name": "linux",
+      "name": "Debian 10",
       "type": 1,
-      "display": "Linux"
+      "display": "Debian 10"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -193,13 +193,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -223,13 +223,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Ubuntu 22:04"
     },
     "os": {
       "id": 6368,
-      "name": "ubuntu",
+      "name": "Ubuntu 22:04",
       "type": 1,
-      "display": "Ubuntu 20.04"
+      "display": "Ubuntu 22:04"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -253,13 +253,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -283,7 +283,7 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "CentOS 8"
     },
     "os": {
       "id": 6370,
@@ -313,13 +313,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -343,13 +343,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Debian 10"
     },
     "os": {
       "id": 6366,
-      "name": "linux",
+      "name": "Debian 10",
       "type": 1,
-      "display": "Linux"
+      "display": "Debian 10"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -373,13 +373,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -403,13 +403,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Ubuntu 22:04"
     },
     "os": {
       "id": 6368,
-      "name": "ubuntu",
+      "name": "Ubuntu 22:04",
       "type": 1,
-      "display": "Ubuntu 20.04"
+      "display": "Ubuntu 22:04"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -433,13 +433,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -463,7 +463,7 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "CentOS 8"
     },
     "os": {
       "id": 6370,
@@ -493,13 +493,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -523,13 +523,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Debian 10"
     },
     "os": {
       "id": 6366,
-      "name": "linux",
+      "name": "Debian 10",
       "type": 1,
-      "display": "Linux"
+      "display": "Debian 10"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -553,13 +553,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -583,13 +583,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Ubuntu 22:04"
     },
     "os": {
       "id": 6368,
-      "name": "ubuntu",
+      "name": "Ubuntu 22:04",
       "type": 1,
-      "display": "Ubuntu 20.04"
+      "display": "Ubuntu 22:04"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -613,13 +613,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -643,7 +643,7 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "CentOS 8"
     },
     "os": {
       "id": 6370,
@@ -673,13 +673,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -703,13 +703,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Debian 10"
     },
     "os": {
       "id": 6366,
-      "name": "linux",
+      "name": "Debian 10",
       "type": 1,
-      "display": "Linux"
+      "display": "Debian 10"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -733,13 +733,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -763,13 +763,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Ubuntu 22:04"
     },
     "os": {
       "id": 6368,
-      "name": "ubuntu",
+      "name": "Ubuntu 22:04",
       "type": 1,
-      "display": "Ubuntu 20.04"
+      "display": "Ubuntu 22:04"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -793,13 +793,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -823,7 +823,7 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "CentOS 8"
     },
     "os": {
       "id": 6370,
@@ -853,13 +853,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -883,13 +883,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Debian 10"
     },
     "os": {
       "id": 6366,
-      "name": "linux",
+      "name": "Debian 10",
       "type": 1,
-      "display": "Linux"
+      "display": "Debian 10"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -913,13 +913,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -943,13 +943,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Ubuntu 22:04"
     },
     "os": {
       "id": 6368,
-      "name": "ubuntu",
+      "name": "Ubuntu 22:04",
       "type": 1,
-      "display": "Ubuntu 20.04"
+      "display": "Ubuntu 22:04"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -973,13 +973,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -1003,7 +1003,7 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "CentOS 8"
     },
     "os": {
       "id": 6370,
@@ -1033,13 +1033,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -1063,13 +1063,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Debian 10"
     },
     "os": {
       "id": 6366,
-      "name": "linux",
+      "name": "Debian 10",
       "type": 1,
-      "display": "Linux"
+      "display": "Debian 10"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -1093,13 +1093,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -1123,13 +1123,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Ubuntu 22:04"
     },
     "os": {
       "id": 6368,
-      "name": "ubuntu",
+      "name": "Ubuntu 22:04",
       "type": 1,
-      "display": "Ubuntu 20.04"
+      "display": "Ubuntu 22:04"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -1153,13 +1153,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -1183,7 +1183,7 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "CentOS 8"
     },
     "os": {
       "id": 6370,
@@ -1213,13 +1213,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -1243,13 +1243,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Debian 10"
     },
     "os": {
       "id": 6366,
-      "name": "linux",
+      "name": "Debian 10",
       "type": 1,
-      "display": "Linux"
+      "display": "Debian 10"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -1273,13 +1273,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -1303,13 +1303,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Ubuntu 22:04"
     },
     "os": {
       "id": 6368,
-      "name": "ubuntu",
+      "name": "Ubuntu 22:04",
       "type": 1,
-      "display": "Ubuntu 20.04"
+      "display": "Ubuntu 22:04"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -1333,13 +1333,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -1363,7 +1363,7 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "CentOS 8"
     },
     "os": {
       "id": 6370,
@@ -1393,13 +1393,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -1423,13 +1423,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Debian 10"
     },
     "os": {
       "id": 6366,
-      "name": "linux",
+      "name": "Debian 10",
       "type": 1,
-      "display": "Linux"
+      "display": "Debian 10"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -1453,13 +1453,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -1483,13 +1483,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Ubuntu 22:04"
     },
     "os": {
       "id": 6368,
-      "name": "ubuntu",
+      "name": "Ubuntu 22:04",
       "type": 1,
-      "display": "Ubuntu 20.04"
+      "display": "Ubuntu 22:04"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -1513,13 +1513,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -1543,7 +1543,7 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "CentOS 8"
     },
     "os": {
       "id": 6370,
@@ -1573,13 +1573,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -1603,13 +1603,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Debian 10"
     },
     "os": {
       "id": 6366,
-      "name": "linux",
+      "name": "Debian 10",
       "type": 1,
-      "display": "Linux"
+      "display": "Debian 10"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -1633,13 +1633,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -1663,13 +1663,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Ubuntu 22:04"
     },
     "os": {
       "id": 6368,
-      "name": "ubuntu",
+      "name": "Ubuntu 22:04",
       "type": 1,
-      "display": "Ubuntu 20.04"
+      "display": "Ubuntu 22:04"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -1693,13 +1693,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -1723,7 +1723,7 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "CentOS 8"
     },
     "os": {
       "id": 6370,
@@ -1753,13 +1753,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -1783,13 +1783,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Debian 10"
     },
     "os": {
       "id": 6366,
-      "name": "linux",
+      "name": "Debian 10",
       "type": 1,
-      "display": "Linux"
+      "display": "Debian 10"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -1813,13 +1813,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -1843,13 +1843,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Ubuntu 22:04"
     },
     "os": {
       "id": 6368,
-      "name": "ubuntu",
+      "name": "Ubuntu 22:04",
       "type": 1,
-      "display": "Ubuntu 20.04"
+      "display": "Ubuntu 22:04"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -1873,13 +1873,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -1903,7 +1903,7 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "CentOS 8"
     },
     "os": {
       "id": 6370,
@@ -1933,13 +1933,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -1963,13 +1963,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Ubuntu 22:04"
     },
     "os": {
       "id": 6368,
-      "name": "ubuntu",
+      "name": "Ubuntu 22:04",
       "type": 1,
-      "display": "Ubuntu 20.04"
+      "display": "Ubuntu 22:04"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -1993,13 +1993,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -2023,7 +2023,7 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "CentOS 8"
     },
     "os": {
       "id": 6370,
@@ -2053,13 +2053,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -2083,13 +2083,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Debian 10"
     },
     "os": {
       "id": 6366,
-      "name": "linux",
+      "name": "Debian 10",
       "type": 1,
-      "display": "Linux"
+      "display": "Debian 10"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -2113,13 +2113,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -2143,13 +2143,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Ubuntu 22:04"
     },
     "os": {
       "id": 6368,
-      "name": "ubuntu",
+      "name": "Ubuntu 22:04",
       "type": 1,
-      "display": "Ubuntu 20.04"
+      "display": "Ubuntu 22:04"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -2173,13 +2173,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -2203,7 +2203,7 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "CentOS 8"
     },
     "os": {
       "id": 6370,
@@ -2233,13 +2233,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -2263,13 +2263,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Debian 10"
     },
     "os": {
       "id": 6366,
-      "name": "linux",
+      "name": "Debian 10",
       "type": 1,
-      "display": "Linux"
+      "display": "Debian 10"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -2293,13 +2293,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -2323,13 +2323,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Ubuntu 22:04"
     },
     "os": {
       "id": 6368,
-      "name": "ubuntu",
+      "name": "Ubuntu 22:04",
       "type": 1,
-      "display": "Ubuntu 20.04"
+      "display": "Ubuntu 22:04"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -2353,13 +2353,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -2383,7 +2383,7 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "CentOS 8"
     },
     "os": {
       "id": 6370,
@@ -2413,13 +2413,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -2443,13 +2443,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Debian 10"
     },
     "os": {
       "id": 6366,
-      "name": "linux",
+      "name": "Debian 10",
       "type": 1,
-      "display": "Linux"
+      "display": "Debian 10"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -2473,13 +2473,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -2503,13 +2503,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Ubuntu 22:04"
     },
     "os": {
       "id": 6368,
-      "name": "ubuntu",
+      "name": "Ubuntu 22:04",
       "type": 1,
-      "display": "Ubuntu 20.04"
+      "display": "Ubuntu 22:04"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -2533,13 +2533,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -2563,7 +2563,7 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "CentOS 8"
     },
     "os": {
       "id": 6370,
@@ -2593,13 +2593,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -2623,13 +2623,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Debian 10"
     },
     "os": {
       "id": 6366,
-      "name": "linux",
+      "name": "Debian 10",
       "type": 1,
-      "display": "Linux"
+      "display": "Debian 10"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -2653,13 +2653,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -2683,13 +2683,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Ubuntu 22:04"
     },
     "os": {
       "id": 6368,
-      "name": "ubuntu",
+      "name": "Ubuntu 22:04",
       "type": 1,
-      "display": "Ubuntu 20.04"
+      "display": "Ubuntu 22:04"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -2713,13 +2713,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -2743,7 +2743,7 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "CentOS 8"
     },
     "os": {
       "id": 6370,
@@ -2773,13 +2773,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -2803,13 +2803,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Debian 10"
     },
     "os": {
       "id": 6366,
-      "name": "linux",
+      "name": "Debian 10",
       "type": 1,
-      "display": "Linux"
+      "display": "Debian 10"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -2833,13 +2833,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -2863,13 +2863,13 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "Ubuntu 22:04"
     },
     "os": {
       "id": 6368,
-      "name": "ubuntu",
+      "name": "Ubuntu 22:04",
       "type": 1,
-      "display": "Ubuntu 20.04"
+      "display": "Ubuntu 22:04"
     },
     "is_gpu_server": true,
     "instance_role": {
@@ -2893,13 +2893,13 @@
     },
     "type": {
       "value": 2,
-      "label": "Windows"
+      "label": "Centos7"
     },
     "os": {
       "id": 6367,
-      "name": "windows",
+      "name": "Centos7",
       "type": 2,
-      "display": "Windows Server"
+      "display": "Centos7"
     },
     "is_gpu_server": false,
     "instance_role": {
@@ -2923,7 +2923,7 @@
     },
     "type": {
       "value": 1,
-      "label": "Linux"
+      "label": "CentOS 8"
     },
     "os": {
       "id": 6370,
@@ -2953,13 +2953,13 @@
     },
     "type": {
       "value": 3,
-      "label": "Unix"
+      "label": "Centos8"
     },
     "os": {
       "id": 6369,
-      "name": "freebsd",
+      "name": "Centos8",
       "type": 3,
-      "display": "FreeBSD"
+      "display": "Centos8"
     },
     "is_gpu_server": false,
     "instance_role": {

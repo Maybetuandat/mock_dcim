@@ -36,12 +36,11 @@ class InstanceService:
         paginated_instances = instances[offset:offset + page_size]
         
         return {
-            "instances": paginated_instances,
             "page": page,
             "page_size": page_size,
             "total": total,
             "total_pages": total_pages,
-            
+            "instances": paginated_instances,
         }
 
     def get_instance_roles(self) -> List[InstanceRole]:
